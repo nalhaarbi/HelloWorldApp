@@ -17,5 +17,7 @@ public class HActivity extends AppCompatActivity {
 
         Intent i = getIntent();
         v.setText("Hello " + i.getStringExtra("personName"));
+
+        //TEST
     }
 }
